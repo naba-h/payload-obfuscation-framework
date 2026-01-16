@@ -162,6 +162,14 @@ so that stronger and more resilient security controls can be designed.
 
 ---
 
+## Safety and Execution Notice
+
+This project operates **only on string data** and does **not execute payloads**, system commands, or network requests.  
+All encoding, obfuscation, and detection logic is implemented purely for **demonstration and educational purposes**.
+
+No real malware is generated, executed, or distributed as part of this project.  
+The framework is intended solely to help understand the limitations of static, signature-based detection mechanisms in a controlled environment.
+
 ## Author
 
 **Naba Hanfi**  
