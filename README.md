@@ -114,15 +114,15 @@ powershell download malware
 The framework evaluates how different encoding and obfuscation techniques affect
 signature-based detection outcomes.
 
-| Payload Type                    | Detection Result |
-|---------------------------------|------------------|
-| Original Payload                | Detected         |
-| Base64 Encoded Payload          | Bypassed         |
-| XOR Encoded Payload             | Bypassed         |
-| ROT13 Encoded Payload           | Bypassed         |
+| Payload Type                    | Detection Result   |
+|---------------------------------|--------------------|
+| Original Payload                | Detected           |
+| Base64 Encoded Payload          | Bypassed           |
+| XOR Encoded Payload             | Bypassed           |
+| ROT13 Encoded Payload           | Bypassed           |
 | Noise Obfuscated Payload        | Detected / Partial |
-| Split & Join Obfuscation        | Bypassed         |
-| Hex Escaped Payload             | Bypassed         |
+| Split & Join Obfuscation        | Bypassed           |
+| Hex Escaped Payload             | Bypassed           |
 
 These results clearly demonstrate that simple payload transformations can significantly
 reduce the effectiveness of static signature-based detection systems.
